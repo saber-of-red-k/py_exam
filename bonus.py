@@ -10,6 +10,6 @@ except:
 
 for i in range(1,userInp+1,2):
     print(str("*"*i).center(30))
-for i in range(userInp-1,0,-2):
+for i in range(userInp-2,0,-2):
     print(str("*"*i).center(30))
 
